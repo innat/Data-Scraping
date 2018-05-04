@@ -14,12 +14,12 @@ def login_and_search():
 	driver.maximize_window()
 
 	email = driver.find_element_by_xpath('//*[@id="session_key-login"]')
-	email.send_keys('tomhankss500@gmail.com')
+	email.send_keys('xxxx@gmail.com')  # insert id
 
 	time.sleep(3)
 
 	password = driver.find_element_by_xpath('//*[@id="session_password-login"]')
-	password.send_keys('s-p*_GY.ECn\G8k:')
+	password.send_keys('xxx') # insert password
 
 	time.sleep(3)
 
@@ -87,15 +87,12 @@ def get_page_links():
 	return link_list
 
 
-
-########################################### MAIN ###################################
-
 login_and_search()
 
 get_detail_link(get_page_links())
 
 driver.quit()
 
-####################################################################################
+
 
 
