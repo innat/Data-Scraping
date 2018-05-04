@@ -14,12 +14,12 @@ def login_and_search():
 	driver.maximize_window()
 
 	email = driver.find_element_by_xpath('//*[@id="session_key-login"]')
-	email.send_keys('tomhankss500@gmail.com')
+	email.send_keys('xxxxx@gmail.com') # insert email address or id
 
 	time.sleep(3)
 
 	password = driver.find_element_by_xpath('//*[@id="session_password-login"]')
-	password.send_keys('s-p*_GY.ECn\G8k:')
+	password.send_keys('xxxx') # insert password
 
 	time.sleep(3)
 
