@@ -2,7 +2,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
 
-driver = webdriver.Chrome('C:\chromedriver_win32\chromedriver.exe')
+driver = webdriver.Chrome(r'C:\chromedriver_win32\chromedriver.exe')
 
 def login():
 
@@ -11,12 +11,12 @@ def login():
 	driver.maximize_window()
 
 	email = driver.find_element_by_xpath('//*[@id="session_key-login"]')
-	email.send_keys('tomhankss500@gmail.com')
+	email.send_keys('xxxx@gmail.com') # insert email address
 
 	time.sleep(3)
 
 	password = driver.find_element_by_xpath('//*[@id="session_password-login"]')
-	password.send_keys('s-p*_GY.ECn\G8k:')
+	password.send_keys('xxxx') # insert password
 
 	time.sleep(3)
 
