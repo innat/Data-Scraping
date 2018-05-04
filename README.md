@@ -1,6 +1,6 @@
 # Web Scraping
 
-# Installation
+## Installation
 
 Downlaod [Python 3x](https://www.python.org/) from the official website.
 
