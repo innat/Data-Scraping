@@ -18,7 +18,7 @@ Download [PhantomJS](http://phantomjs.org/)
 
 
 ```
-git clone https://github.com/innat-2k14/Web-Scraping
+git clone https://github.com/iphton/Data-Scraping
 cd Web-Scraping
 jupyter notebook
 ```
