@@ -23,3 +23,9 @@ cd Web-Scraping
 jupyter notebook
 ```
 Go do the desired notebook, files that end with '.ipynb'. To run the model, go to the menu then click on Cell > Run all
+
+
+---
+Regards
+
+**World of Void.**
